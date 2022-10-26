@@ -17,7 +17,7 @@ export LIBOMPTARGET_INFO=4
 #
 nvprof -m sm_efficiency ./sobel_gpu 1 256
 
-nvprof -m sm_efficiency ./sobel_gpu 2 512
+# nvprof -m sm_efficiency ./sobel_gpu 2 512
 
 # nvprof -m sm_efficiency ./sobel_cpu_omp_offload
 
